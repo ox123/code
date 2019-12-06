@@ -41,15 +41,15 @@ public class SlideWindow {
     public int lengthOfLongestSubstring(String s) {
         int res = 0;
         int j = 0;
-        Map<Character, Integer>  map = new HashMap<Character, Integer>();
+        Map<Character, Integer> map = new HashMap<Character, Integer>();
         int len = s.length();
         for (int i = 0; i < len; ++i) {
-           char item = s.charAt(i);
-           if (map.containsKey(item)){
+            char item = s.charAt(i);
+            if (map.containsKey(item)) {
                 j = Math.max(j, map.get(item) + 1);
-           }
-           map.put(s.charAt(i), i);
-           res = Math.max(res, i - j +1);
+            }
+            map.put(s.charAt(i), i);
+            res = Math.max(res, i - j + 1);
         }
         return res;
     }

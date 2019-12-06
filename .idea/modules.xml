@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/alg.main.iml" filepath="$PROJECT_DIR$/.idea/modules/alg.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/alg.test.iml" filepath="$PROJECT_DIR$/.idea/modules/alg.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/code.iml" filepath="$PROJECT_DIR$/code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sofa-jraft.iml" filepath="$PROJECT_DIR$/.idea/modules/sofa-jraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tomcat.iml" filepath="$PROJECT_DIR$/.idea/modules/tomcat.iml" />
     </modules>
   </component>
 </project>

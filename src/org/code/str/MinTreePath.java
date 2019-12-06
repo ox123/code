@@ -18,20 +18,21 @@ public class MinTreePath {
 
     /**
      * https://leetcode.com/problems/triangle/
+     *
      * @param triangle
      * @return
      */
     public int minimumTotal(List<List<Integer>> triangle) {
         int row = triangle.size();
         int dp[][] = new int[row][row];
-        List<Integer> lastRow = triangle.get(row-1);
+        List<Integer> lastRow = triangle.get(row - 1);
         for (int i = 0; i < row; i++) {
-            dp[row-1][i] = lastRow.get(i);
+            dp[row - 1][i] = lastRow.get(i);
         }
         for (int i = row - 2; i >= 0; i--) {
             List<Integer> item = triangle.get(i);
-            for (int j = 0; j < i+1; j++) {
-                dp[i][j] = Math.min(dp[i+1][j], dp[i+1][j+1]) + item.get(j);
+            for (int j = 0; j < i + 1; j++) {
+                dp[i][j] = Math.min(dp[i + 1][j], dp[i + 1][j + 1]) + item.get(j);
             }
         }
         return dp[0][0];
@@ -39,20 +40,21 @@ public class MinTreePath {
 
     /**
      * https://leetcode.com/problems/maximum-subarray/
+     *
      * @param nums
      * @return
      */
-    public int maxSubArray(int[] nums){
-        if (nums == null || nums.length <= 0){
+    public int maxSubArray(int[] nums) {
+        if (nums == null || nums.length <= 0) {
             return 0;
         }
 
         int n = nums.length;
-        int [] dp =new int[n];
+        int[] dp = new int[n];
         dp[0] = nums[0];
         int result = nums[0];
         for (int i = 1; i < n; i++) {
-            dp[i] = Math.max(dp[i-1], 0) + nums[i];
+            dp[i] = Math.max(dp[i - 1], 0) + nums[i];
             result = Math.max(result, dp[i]);
         }
         return result;
