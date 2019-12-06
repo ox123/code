@@ -1,6 +1,6 @@
 package org.code.linklist;
 
-public class MergeLinkList21 {
+public class MergeLinkList_21 {
     public static void main(String[] args) {
 
     }

@@ -1,5 +1,8 @@
 package org.code.str;
 
+/**
+ * TODO 可以使用kmp算法解决，最有解
+ */
 public class SubStringCount {
     public static void main(String[] args) {
         // write your code here

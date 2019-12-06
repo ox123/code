@@ -1,12 +1,9 @@
 package org.code.linklist;
 
-import java.util.List;
-import java.util.concurrent.ThreadPoolExecutor;
-
 /**
  * https://leetcode.com/problems/trapping-rain-water/solution/
  */
-public class PalindromeLinkedList232 {
+public class PalindromeLinkedList_232 {
     public static void main(String[] args) {
         ListNode node1 = new ListNode(-1);
         ListNode node2 = new ListNode(1);
@@ -31,7 +28,7 @@ public class PalindromeLinkedList232 {
 //            System.out.println(item.val);
 //            header = header.next;
 //        }
-        System.out.println(new PalindromeLinkedList232().isPalindrome(node));
+        System.out.println(new PalindromeLinkedList_232().isPalindrome(node));
 
     }
 

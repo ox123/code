@@ -1,8 +1,10 @@
-package org.code.str;
+package org.code.dynamic;
+
+import org.code.str.SlideWindow;
 
 import java.util.List;
 
-public class MinTreePath {
+public class MaximumSubarray_53 {
     public static void main(String[] args) {
 //        int[] nums = new int[]{1, 3, -1, -3, 5, 3, 6, 7};
 //        System.out.println(new int[0]);
@@ -16,27 +18,7 @@ public class MinTreePath {
         }
     }
 
-    /**
-     * https://leetcode.com/problems/triangle/
-     *
-     * @param triangle
-     * @return
-     */
-    public int minimumTotal(List<List<Integer>> triangle) {
-        int row = triangle.size();
-        int dp[][] = new int[row][row];
-        List<Integer> lastRow = triangle.get(row - 1);
-        for (int i = 0; i < row; i++) {
-            dp[row - 1][i] = lastRow.get(i);
-        }
-        for (int i = row - 2; i >= 0; i--) {
-            List<Integer> item = triangle.get(i);
-            for (int j = 0; j < i + 1; j++) {
-                dp[i][j] = Math.min(dp[i + 1][j], dp[i + 1][j + 1]) + item.get(j);
-            }
-        }
-        return dp[0][0];
-    }
+
 
     /**
      * https://leetcode.com/problems/maximum-subarray/
@@ -48,7 +30,6 @@ public class MinTreePath {
         if (nums == null || nums.length <= 0) {
             return 0;
         }
-
         int n = nums.length;
         int[] dp = new int[n];
         dp[0] = nums[0];

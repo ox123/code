@@ -1,9 +1,9 @@
 package org.code.dynamic;
 
-public class Candy137 {
+public class Candy_137 {
     public static void main(String[] args) {
         int a[] = new int[]{1, 0, 2};
-        System.out.println(new Candy137().candy(a));
+        System.out.println(new Candy_137().candy(a));
     }
 
     public int candy(int[] ratings) {
