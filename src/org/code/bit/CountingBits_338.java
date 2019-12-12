@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class CountingBits_338 {
     public static void main(String[] args) {
-        int n = 2;
+        int n = 5;
         System.out.println(Arrays.toString(new CountingBits_338().countBits(n)));
     }
 
