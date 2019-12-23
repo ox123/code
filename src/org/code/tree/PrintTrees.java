@@ -1,5 +1,8 @@
 package org.code.tree;
 
+import java.nio.channels.SelectionKey;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 public class PrintTrees {
@@ -7,6 +10,8 @@ public class PrintTrees {
     public void printTreeVertical(Node node) {
         Stack<Node> stack = new Stack<Node>();
         stack.push(node);
+        List<String> aa = new ArrayList<>();
+        List<Object> bb = new ArrayList<>();
 
     }
 

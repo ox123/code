@@ -1,11 +1,14 @@
 package org.code.stackqueue;
 
+import java.util.LinkedList;
 import java.util.Stack;
 
 public class MinimumParentheseValid_921 {
     public static void main(String[] args) {
         String S = "()))((";
         System.out.println(new MinimumParentheseValid_921().minAddToMakeValid(S));
+        LinkedList lst = new LinkedList();
+        lst.offer("aaa");
     }
 
     public int minAddToMakeValid(String S) {
