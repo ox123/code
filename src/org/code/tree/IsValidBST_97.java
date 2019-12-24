@@ -9,7 +9,7 @@ import java.util.ArrayList;
  */
 public class IsValidBST_97 {
     public static void main(String[] args) {
-        TreeNode root = new TreeNode(1);
+        TreeNode root = new TreeNode(2);
         TreeNode left = new TreeNode(1);
         root.left = left;
         System.out.println(new IsValidBST_97().isValidBST(root));
@@ -63,7 +63,10 @@ public class IsValidBST_97 {
         }
         if (min != null && root.val <= min.val) return false;
         if (max != null && root.val >= max.val) return false;
-        return isValidBST(root.left, min, root) && isValidBST(root.right, root, max);
+        if (!isValidBST(root.left, min, root)) return false;
+        if (!isValidBST(root.right, root, max)) return false;
+//        return isValidBST(root.left, min, root) && isValidBST(root.right, root, max);
+        return true;
     }
 
 }
