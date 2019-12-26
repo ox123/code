@@ -4,14 +4,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-/**TODO 也许与更优解法
+/**
+ * TODO 也许与更优解法
  * https://leetcode.com/problems/3sum/submissions/
  */
 public class Sumfor3_15 {
     public static void main(String[] args) {
 //        int num[] = new int[]{-1, 0, 1, 2, -1, -4};
 //        int num[] = new int[]{1, 1, 1};
-        int num[] = new int[]{-2,0,0,2,2};
+        int num[] = new int[]{-2, 0, 0, 2, 2};
         Arrays.sort(num);
         System.out.println(Arrays.toString(num));
 //        System.out.println(Arrays.toString(new Sumfor3_15().threeSum(num).toArray()));
@@ -25,6 +26,7 @@ public class Sumfor3_15 {
      * Runtime: 32 ms, faster than 65.05% of Java online submissions for 3Sum.
      * Memory Usage: 46.2 MB, less than 92.93% of Java online submissions for 3Sum.
      * 时间复杂度: o(n^2)
+     *
      * @param nums
      * @return
      */
@@ -46,20 +48,20 @@ public class Sumfor3_15 {
             while (left < right) {
                 int sum = nums[left] + nums[right] + nums[i];
                 if (sum == 0) {
-                    List tmp =  new ArrayList<>(Arrays.asList(nums[i], nums[left], nums[right]));
+                    List tmp = new ArrayList<>(Arrays.asList(nums[i], nums[left], nums[right]));
 //                    result.add(new ArrayList<>(Arrays.asList(nums[i], nums[left], nums[right])));
-                    if (!result.contains(tmp)){
-                        result.add(tmp);
-                    }
+//                    if (!result.contains(tmp)){
+//                        result.add(tmp);
+//                    }
                     left++;
                     right--;
                     // 两个while循环过滤重复的值，如果没有此两个过滤条件，结果可能出现重复的值。此种方式结果更好
-//                    while (left < right && nums[left - 1] == nums[left]) {
-//                        left++;
-//                    }
-//                    while (left < right && nums[right] == nums[right + 1]) {
-//                        right--;
-//                    }
+                    while (left < right && nums[left - 1] == nums[left]) {
+                        left++;
+                    }
+                    while (left < right && nums[right] == nums[right + 1]) {
+                        right--;
+                    }
                 } else if (sum < 0) {
                     left++;
                 } else {

@@ -2,12 +2,13 @@ package org.code.str;
 
 public class MaxContainer11 {
     public static void main(String[] args) {
-        int[] height = new int[]{1,8,6,2,5,4,8,3,7};
-       System.out.println(new MaxContainer11().maxArea(height));
+        int[] height = new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7};
+        System.out.println(new MaxContainer11().maxArea(height));
     }
 
     /**
      * https://leetcode.com/problems/container-with-most-water/submissions/
+     *
      * @param height
      * @return
      */
