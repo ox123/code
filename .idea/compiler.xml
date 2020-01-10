@@ -6,19 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rocketmq-store" />
+        <module name="rocketmq-tools" />
         <module name="rocketmq-test" />
         <module name="rocketmq-openmessaging" />
-        <module name="rocketmq-logappender" />
-        <module name="rocketmq-logging" />
         <module name="rocketmq-broker" />
+        <module name="rocketmq-store" />
+        <module name="rocketmq-logging" />
+        <module name="rocketmq-namesrv" />
         <module name="rocketmq-srvutil" />
         <module name="rocketmq-remoting" />
-        <module name="rocketmq-namesrv" />
-        <module name="rocketmq-tools" />
-        <module name="rocketmq-acl" />
-        <module name="rocketmq-example" />
+        <module name="code" />
         <module name="rocketmq-common" />
+        <module name="rocketmq-example" />
+        <module name="rocketmq-acl" />
+        <module name="rocketmq-logappender" />
         <module name="rocketmq-client" />
         <module name="rocketmq-filter" />
       </profile>
@@ -26,6 +27,7 @@
     <bytecodeTargetLevel>
       <module name="alg.main" target="1.8" />
       <module name="alg.test" target="1.8" />
+      <module name="code" target="1.5" />
       <module name="rocketmq-acl" target="1.8" />
       <module name="rocketmq-all" target="1.8" />
       <module name="rocketmq-broker" target="1.8" />

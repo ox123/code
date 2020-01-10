@@ -3,21 +3,38 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/acl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/acl/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/broker" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/broker/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/broker/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/client/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/distribution" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/example" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/example/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/example/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/filter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/logappender" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/logappender/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/logging" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/logging/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/namesrv" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/namesrv/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/openmessaging" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/openmessaging/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/remoting" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/remoting/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/srvutil" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/srvutil/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/store" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/store/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/test/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/tools" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../github/mq/rocketmq/tools/src/main/java" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

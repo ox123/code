@@ -27,7 +27,7 @@ public class IsValidBST_97 {
 //            if (result.get(i) >= result.get(i + 1)) {
 //                return false;
 //            }
-//        }
+//        },
 //        return true;
         return new IsValidBST_97().isValidBST(root, null, null);
     }

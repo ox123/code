@@ -29,7 +29,6 @@ public class CheapestFlightsWithinKStops_787 {
         int dst = 2;
         int K = 1;
         System.out.println(new CheapestFlightsWithinKStops_787().findCheapestPrice(n, flights, src, dst, K));
-
     }
 
     /**
