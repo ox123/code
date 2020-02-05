@@ -18,6 +18,8 @@ public class FindMedianSortedArrays_4 {
      * Runtime: 3 ms, faster than 30.46% of Java online submissions for Median of Two Sorted Arrays.
      * Memory Usage: 47.2 MB, less than 86.11% of Java online submissions for Median of Two Sorted Arrays.
      *
+     * 时间复杂度：o(nlog(n))
+     *
      * @param nums1
      * @param nums2
      * @return
@@ -45,6 +47,7 @@ public class FindMedianSortedArrays_4 {
     /**
      * Runtime: 2 ms, faster than 100.00% of Java online submissions for Median of Two Sorted Arrays.
      * Memory Usage: 47.3 MB, less than 84.03% of Java online submissions for Median of Two Sorted Arrays
+     *
      * @param nums1
      * @param nums2
      * @return
