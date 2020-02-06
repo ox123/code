@@ -3,6 +3,7 @@ package org.code.dynamic;
 /**
  * https://leetcode.com/problems/longest-palindromic-substring/
  * <p>
+ * 动态规划算法：https://leetcode-cn.com/problems/longest-palindromic-substring/solution/zhong-xin-kuo-san-fa-he-dong-tai-gui-hua-by-reedfa/
  * TODO 理解算法：https://leetcode.com/problems/longest-palindromic-substring/discuss/354582/Java-easy-to-understand-dp-solution-with-comments
  * https://leetcode.com/problems/longest-palindromic-substring/discuss/408930/JAVA%3A-Simple-and-Concise-solution-with-detailed-explanation
  */
