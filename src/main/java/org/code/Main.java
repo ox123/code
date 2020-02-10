@@ -1,5 +1,7 @@
 package org.code;
 
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.concurrent.atomic.AtomicReference;
 import java.util.concurrent.atomic.AtomicStampedReference;
@@ -14,6 +16,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println(new ArrayList<Integer>(Arrays.asList(2,1,2,3,4)));
+        System.out.println(Runtime.getRuntime().availableProcessors());
+        System.out.println(Runtime.getRuntime().totalMemory()/(1024));
         int n = 0;
         do {
             n++;

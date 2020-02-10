@@ -10,11 +10,11 @@ import java.util.Arrays;
  */
 public class ReverseLink {
     public static void main(String[] args) {
-        int[] array = Utils.getArray(10);
+        int[] array = Utils.getUniqueArray(10);
         System.out.println(Arrays.toString(array));
-        int[] nums = {1, 3, 4};
-        ListNode nodeList = NodeUtils.generateNodeList(array);
-        NodeUtils.printNode(new ReverseLink().reverserNodeList(nodeList));
+        int[] nums = {1, 3, 4, 5};
+        ListNode nodeList = NodeUtils.generateNodeList(nums);
+        NodeUtils.printNodeWithOneLine(new ReverseLink().reverserNodeList(nodeList));
     }
 
     public ListNode reverserNodeList(ListNode head) {

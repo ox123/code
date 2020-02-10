@@ -40,7 +40,7 @@ public class Sumfor3_15 {
         for (int i = 0; i < length - 2; i++) {
             // 去除重复部分值
             if (i > 0) {
-                while (i < length - 2 && nums[i - 1] == nums[i]) i++;
+                while (i < length - 2 && nums[i - 1] == nums[i]) continue;
             }
             // 排序之后第一个数值大于0，则一定不存在这样的元组
             if (nums[i] > 0) return result;
@@ -50,9 +50,9 @@ public class Sumfor3_15 {
                 if (sum == 0) {
                     List tmp = new ArrayList<>(Arrays.asList(nums[i], nums[left], nums[right]));
 //                    result.add(new ArrayList<>(Arrays.asList(nums[i], nums[left], nums[right])));
-//                    if (!result.contains(tmp)){
-//                        result.add(tmp);
-//                    }
+                    if (!result.contains(tmp)){
+                        result.add(tmp);
+                    }
                     left++;
                     right--;
                     // 两个while循环过滤重复的值，如果没有此两个过滤条件，结果可能出现重复的值。此种方式结果更好

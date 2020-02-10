@@ -1,13 +1,19 @@
 package org.code.tree;
 
+import org.code.linklist.ListNode;
+import org.code.sort.Utils;
+import org.code.utils.NodeUtils;
+
 import java.util.LinkedList;
-import java.util.Queue;
 
 /**
  * 反转二叉树
  */
 public class ReverseBinaryTree {
     public static void main(String[] args) {
+        int[] array = Utils.getArray(5);
+        ListNode listNode = NodeUtils.generateNodeList(array);
+        NodeUtils.printNodeWithOneLine(listNode);
 
     }
 
