@@ -9,7 +9,7 @@ package org.code.dynamic;
  */
 public class LongestPalindrome_5 {
     public static void main(String[] args) {
-        String str = "lphbehiapswjudnbcossedgioawodnwdruaaxhbkwrxyzaxygmnjgwysafuqbmtzwdkihbwkrjefrsgjbrycembzzlwhxneiijgzidhngbmxwkhphoctpilgooitqbpjxhwrekiqupmlcvawaiposqttsdgzcsjqrmlgyvkkipfigttahljdhtksrozehkzgshekeaxezrswvtinyouomqybqsrtegwwqhqivgnyehpzrhgzckpnnpvajqevbzeksvbezoqygjtdouecnhpjibmsgmcqcgxwzlzztdneahixxhwwuehfsiqghgeunpxgvavqbqrelnvhnnyqnjqfysfltclzeoaletjfzskzvcdwhlbmwbdkxnyqappjzwlowslwcbbmcxoiqkjaqqwvkybimebapkorhfdzntodhpbhgmsspgkbetmgkqlolsltpulgsmyapgjeswazvhxedqsypejwuzlvegtusjcsoenrcmypexkjxyduohlvkhwbrtzjnarusbouwamazzejhnetfqbidalfomecehfmzqkhndpkxinzkpxvhwargbwvaeqbzdhxzmmeeozxxtzpylohvdwoqocvutcelgdsnmubyeeeufdaoznxpvdiwnkjliqtgcmvhilndcdelpnilszzerdcuokyhcxjuedjielvngarsgxkemvhlzuprywlypxeezaxoqfges";
+        String str = "lphbehiapswjudnbcossssed";
         System.out.println(str.substring(0, 1));
         System.out.println(new LongestPalindrome_5().isPalindrome("aba"));
         System.out.println(new LongestPalindrome_5().longestPalindrome(str));
@@ -21,11 +21,21 @@ public class LongestPalindrome_5 {
      * @return
      */
     public String longestPalindrome(String s) {
-        if (s == null || s.length() <= 1) return s; // 处理字符串为 "a"
-        String result = "";
-
-
-        return result;
+        if (s == null || s.length() <= 1 || s.equals("")) {
+            return s;
+        }
+        String longest = s.substring(0, 1);
+        for (int i = 0; i < s.length(); i++) {
+            String temp = palindromeHelper(s, i, i);  // odd length
+            if (temp.length() > longest.length()) {
+                longest = temp;
+            }
+            temp = palindromeHelper(s, i, i + 1);  // even length
+            if (temp.length() > longest.length()) {
+                longest = temp;
+            }
+        }
+        return longest;
     }
 
     // given a string and the CENTER(S) of the palindrome (i and i+1), find the longest possible palindrome

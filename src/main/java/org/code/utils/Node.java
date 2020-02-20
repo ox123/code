@@ -1,4 +1,4 @@
-package org.code.tree;
+package org.code.utils;
 
 public class Node {
     public int value;

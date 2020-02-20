@@ -16,6 +16,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println(10>>>16);
         System.out.println(new ArrayList<Integer>(Arrays.asList(2,1,2,3,4)));
         System.out.println(Runtime.getRuntime().availableProcessors());
         System.out.println(Runtime.getRuntime().totalMemory()/(1024));

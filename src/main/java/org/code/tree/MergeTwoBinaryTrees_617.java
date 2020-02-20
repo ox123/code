@@ -1,10 +1,20 @@
 package org.code.tree;
 
+import org.code.linklist.ListNode;
+import org.code.sort.Utils;
+import org.code.utils.NodeUtils;
+import org.code.utils.TreeNode;
+
 /**
  * https://leetcode.com/problems/merge-two-binary-trees/submissions/
  */
 public class MergeTwoBinaryTrees_617 {
     public static void main(String[] args) {
+        int[] array = Utils.getArray(5);
+
+        ListNode listNode = NodeUtils.generateNodeList(array);
+        ListNode listNode1 = NodeUtils.generateNodeList(Utils.getArray(5));
+//        NodeUtils.printNodeWithOneLine(new MergeTwoBinaryTrees_617().mergeTrees(listNode, listNode1));
 
     }
 
