@@ -1,4 +1,4 @@
-package org.code.sort;
+package org.code.utils;
 
 import java.util.*;
 
@@ -10,7 +10,7 @@ public class Utils {
         Set<Integer> result = new LinkedHashSet<Integer>();
         while (result.size() < n) {
             int i = random.nextInt();
-            Integer next = i > 0 ? i % n : -i % n;
+            Integer next = i > 0 ? i % n*12 : -i % n*10;
             result.add(next);
         }
         int[] a = new int[result.size()];

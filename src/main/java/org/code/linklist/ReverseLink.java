@@ -1,6 +1,6 @@
 package org.code.linklist;
 
-import org.code.sort.Utils;
+import org.code.utils.Utils;
 import org.code.utils.NodeUtils;
 
 import java.util.Arrays;
