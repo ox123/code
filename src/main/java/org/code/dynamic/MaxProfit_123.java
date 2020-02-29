@@ -9,11 +9,6 @@ public class MaxProfit_123 {
         System.out.println(new MaxProfit_123().maxProfit(arr));
     }
 
-    /**
-     * TODO 多笔交易
-     * @param prices
-     * @return
-     */
     public int maxProfit(int[] prices) {
         int max = 0;
         return max;
