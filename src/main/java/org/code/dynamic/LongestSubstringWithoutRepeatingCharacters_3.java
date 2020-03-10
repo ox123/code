@@ -85,6 +85,11 @@ public class LongestSubstringWithoutRepeatingCharacters_3 {
         return max;
     }
 
+    /**
+     * TODO 深入理解思路，时间复杂度和空间复杂度都是o(n)
+     * @param s
+     * @return
+     */
     public int lengthOfLongestSubstring4(String s) {
         int res = 0;
         int j = 0;
