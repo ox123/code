@@ -8,6 +8,8 @@ import java.util.Arrays;
  */
 public class NthUglyNumber_264 {
     public static void main(String[] args) {
+        int a=0xFFFF;
+        System.out.println(a);
         int n = 10;
         System.out.println(new NthUglyNumber_264().nthUglyNumber(n));
     }

@@ -1,5 +1,7 @@
 # code
 - 前缀树学习
+- [左神bat算法上](https://juejin.im/post/5c6b9d4c6fb9a04a05403cbe)
+- [左神bat算法下](https://juejin.im/post/5c6b9ea76fb9a04a05403cc1#heading-23)
 - https://www.cnblogs.com/grandyang/p/4606334.html
 - [Manacher详解](https://leetcode-cn.com/circle/article/azOILF/)
 - [letcode中国](https://leetcode-cn.com/problemset/all/)

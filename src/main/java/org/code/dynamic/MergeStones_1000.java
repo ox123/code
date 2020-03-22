@@ -1,7 +1,7 @@
 package org.code.dynamic;
 
 /**
- * https://leetcode.com/problems/minimum-cost-to-merge-stones/
+ * TODO https://leetcode.com/problems/minimum-cost-to-merge-stones/
  */
 public class MergeStones_1000 {
     public static void main(String[] args) {

@@ -87,6 +87,7 @@ public class LongestSubstringWithoutRepeatingCharacters_3 {
 
     /**
      * TODO 深入理解思路，时间复杂度和空间复杂度都是o(n)
+     * 使用滑动窗口保存当前的值，并不停的更新res
      * @param s
      * @return
      */

@@ -37,6 +37,12 @@ public class MaximumSubarray_53 {
         return result;
     }
 
+    /**
+     * 最优解法,时间复杂度：o(n),空间复杂度：o(1)
+     * @param arr
+     * @param col
+     * @return
+     */
     int get_MaxSum(int arr[], int col) {
         int max_sum = 0, tmp = 0;
         for (int i = 0; i < col; i++) {
