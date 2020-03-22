@@ -1,5 +1,6 @@
-package org.code.linklist;
+package org.code.linklist.basic;
 
+import org.code.linklist.ListNode;
 import org.code.utils.NodeUtils;
 
 public class RemoveElements_203 {
