@@ -1,6 +1,6 @@
 # code
 - 前缀树学习
-- [leetcode刷题](https://github.com/acgtun/leetcode)
+
 - [左神bat算法上](https://juejin.im/post/5c6b9d4c6fb9a04a05403cbe)
 - [左神bat算法下](https://juejin.im/post/5c6b9ea76fb9a04a05403cc1#heading-23)
 - https://www.cnblogs.com/grandyang/p/4606334.html
@@ -10,4 +10,6 @@
 - [BFS & DFS](https://blog.csdn.net/Gene1994/article/details/85097507)
 - [算法竞赛](https://github.com/sserdoubleh/ACM/blob/master/knowledge/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E4%BC%98%E5%8C%96.ppt)
 
-
+### 专业刷题
+- https://github.com/wind-liang/leetcode/
+- https://github.com/acgtun/leetcode
