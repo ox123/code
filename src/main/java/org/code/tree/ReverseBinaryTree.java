@@ -15,7 +15,6 @@ public class ReverseBinaryTree {
         int[] array = Utils.getArray(5);
         ListNode listNode = NodeUtils.generateNodeList(array);
         NodeUtils.printNodeWithOneLine(listNode);
-
     }
 
     public TreeNode reverseTree(TreeNode root) {
