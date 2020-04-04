@@ -12,7 +12,7 @@ public class CanThreePartsEqualSum_1013 {
     public boolean canThreePartsEqualSum(int[] A) {
 //        int sum = Arrays.stream(A).sum(); 性能太差
         int sum = 0;
-        for (int num : A) {
+        for (int num: A) {
             sum += num;
         }
         if (sum % 3 != 0) return false;
@@ -30,7 +30,7 @@ public class CanThreePartsEqualSum_1013 {
 
     public boolean canThreePartsEqualSum1(int[] A) {
         int sum = 0;
-        for (int num : A) {
+        for (int num: A) {
             sum += num;
         }
         // 数组A的和如果不能被3整除返回false
