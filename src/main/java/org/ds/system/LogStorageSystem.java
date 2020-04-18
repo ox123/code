@@ -1,4 +1,4 @@
-package org.ds;
+package org.ds.system;
 
 import java.util.HashMap;
 import java.util.LinkedList;
