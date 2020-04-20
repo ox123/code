@@ -1,5 +1,6 @@
 # code
 - 前缀树学习
+- [二分方法](https://leetcode-cn.com/problems/search-insert-position/solution/te-bie-hao-yong-de-er-fen-cha-fa-fa-mo-ban-python-/)
 - [字符串面试汇总](https://juejin.im/post/5b8f9aed6fb9a05d2e1b75d9)
 - [左神bat算法上](https://juejin.im/post/5c6b9d4c6fb9a04a05403cbe)
 - [左神bat算法下](https://juejin.im/post/5c6b9ea76fb9a04a05403cc1#heading-23)
