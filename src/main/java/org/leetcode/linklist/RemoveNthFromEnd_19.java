@@ -12,11 +12,11 @@ public class RemoveNthFromEnd_19 {
         ListNode listNode3 = new ListNode(3);
         ListNode listNode4 = new ListNode(4);
         ListNode listNode5 = new ListNode(5);
-        listNode1.next = listNode2;
+//        listNode1.next = listNode2;
 //        listNode2.next = listNode3;
 //        listNode3.next = listNode4;
 //        listNode4.next = listNode5;
-        ListNode listNode = new RemoveNthFromEnd_19().removeNthFromEnd(listNode1, 1);
+        ListNode listNode = new RemoveNthFromEnd_19().removeNthFromEnd1(listNode1, 1);
         NodeUtils.printNode(listNode);
     }
 
@@ -50,9 +50,19 @@ public class RemoveNthFromEnd_19 {
         ListNode temp = new ListNode(0);
         temp.next = head;
 
-        ListNode slow = temp;
-        ListNode fast = temp;
+        int count = 0;
 
+        ListNode slow = head;
+        ListNode fast = head;
+        while (slow != null) {
+            count++;
+            slow = slow.next;
+        }
+        // 判断删除最后一个数据
+        if (count == n) {
+            return temp.next;
+        }
+        slow = head;
         for (int i = 1; i <= n + 1; i++) {
             fast = fast.next;
         }
@@ -72,9 +82,14 @@ public class RemoveNthFromEnd_19 {
      * @return
      */
     public ListNode removeNthFromEnd1(ListNode head, int n) {
-//        if (head != null || head.next == null) {
-//            return null;
-//        }
+        ListNode k = head;
+        int length = 0;
+        while (k != null) {
+            length++;
+            k = k.next;
+        }
+        if (n == length)
+            return head.next;
         ListNode res = head;
         ListNode p = head;
         ListNode q = head;
@@ -89,12 +104,11 @@ public class RemoveNthFromEnd_19 {
             }
         }
         // 删除最后一个节点
-        while (q.next.next != null) {
-            q.val = q.next.val;
-            q = q.next;
+        while (p.next.next != null) {
+            p.val = p.next.val;
+            p = p.next;
         }
         q.val = q.next.val;
-        q.next = null;
         return res;
     }
 }
