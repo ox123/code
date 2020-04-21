@@ -2,7 +2,7 @@ package org.leetcode.search;
 
 /**
  * https://leetcode.com/problems/binary-search/
- * TODO 
+ * TODO
  */
 public class BinarySearch_704 {
     public static void main(String[] args) {
@@ -25,6 +25,22 @@ public class BinarySearch_704 {
                 left = mid + 1;
             }
         }
+        return -1;
+    }
+
+    public int search1(int[] arr, int t) {
+        int n = arr.length;
+        int l = 0;
+        int h = n - 1;
+        while (l < h) {
+            int mid = l + (h - l) / 2;
+            if (arr[mid] >= t) {
+                h = mid;
+            } else {
+                l = mid + 1;
+            }
+        }
+        if (arr[l] == t) return l;
         return -1;
     }
 }
