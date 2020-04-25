@@ -17,3 +17,7 @@
 
 ### TODO-list
 - design-compressed-string-iterator/
+
+
+### 动态规划
+- [leetcode总结](https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns)
