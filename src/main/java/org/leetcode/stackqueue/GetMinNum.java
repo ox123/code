@@ -21,8 +21,8 @@ public class GetMinNum {
                 while (!qmax.isEmpty() && arr[qmax.peekFirst()] >= arr[j]) {
                     qmax.pollLast();
                 }
-                qmin.addLast(j);
-                while (arr[qmin.getFirst()] - arr[qmin.getFirst()] > num) {
+                qmax.addLast(j);
+                while (arr[qmax.getFirst()] - arr[qmin.getFirst()] > num) {
                     break;
                 }
                 j++;
