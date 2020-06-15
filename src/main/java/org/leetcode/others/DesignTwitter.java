@@ -2,6 +2,9 @@ package org.leetcode.others;
 
 import java.util.List;
 
+/**
+ * ToDO 待实现
+ */
 public class DesignTwitter {
     /**
      * Initialize your data structure here.

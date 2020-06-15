@@ -2,6 +2,9 @@ package org.leetcode.stackqueue;
 
 import java.util.LinkedList;
 
+/**
+ * TODO 深入理解
+ */
 public class GetMinNum {
     public int getNum(int[] arr, int num) {
         if (arr == null || arr.length == 0) {
