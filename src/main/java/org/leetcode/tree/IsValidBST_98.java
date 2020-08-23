@@ -9,12 +9,12 @@ import java.util.ArrayList;
  * https://leetcode.com/problems/validate-binary-search-tree/
  * 详细讲解：https://blog.csdn.net/zangdaiyang1991/article/details/90177273
  */
-public class IsValidBST_97 {
+public class IsValidBST_98 {
     public static void main(String[] args) {
         TreeNode root = new TreeNode(2);
         TreeNode left = new TreeNode(1);
         root.left = left;
-        System.out.println(new IsValidBST_97().isValidBST(root));
+        System.out.println(new IsValidBST_98().isValidBST(root));
     }
 
     public ArrayList<Integer> result = new ArrayList();
@@ -31,7 +31,7 @@ public class IsValidBST_97 {
 //            }
 //        },
 //        return true;
-        return new IsValidBST_97().isValidBST(root, null, null);
+        return new IsValidBST_98().isValidBST(root, null, null);
     }
 
     /**

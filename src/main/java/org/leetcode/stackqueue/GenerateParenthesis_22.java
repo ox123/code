@@ -13,8 +13,19 @@ public class GenerateParenthesis_22 {
         List<String> res = new ArrayList<>();
         if (n <= 0) return res;
         dfs("", n, n, res);
-
         return res;
+    }
+
+    private void generate(int left, int right, int n, String s) {
+        if (left == n && right == n) {
+            System.out.println(s);
+        }
+        if (left < n) {
+            generate(left + 1, right, n, s + "(");
+        }
+        if (left > right) {
+            generate(left, right + 1, n, s + ")");
+        }
     }
 
     private void dfs(String s, int left, int right, List<String> res) {
@@ -22,7 +33,7 @@ public class GenerateParenthesis_22 {
             res.add(s);
             return;
         }
-        if (left>right){
+        if (left > right) {
             return;
         }
         if (left > 0) {
