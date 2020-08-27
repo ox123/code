@@ -10,7 +10,10 @@ public class PeakIndexInMountainArray_852 {
     }
 
     public int peakIndexInMountainArray(int[] A) {
-        int result = 0;
-        return result;
+        for(int i = 0;i<A.length;i++){
+            if(i+1 < A.length && A[i+1] < A[i])
+                return i;
+        }
+        return 0;
     }
 }
