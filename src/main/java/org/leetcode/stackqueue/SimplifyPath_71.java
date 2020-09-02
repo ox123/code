@@ -33,7 +33,6 @@ public class SimplifyPath_71 {
         for (String dir :
                 stack) {
             result += ("/" + dir);
-
         }
         return "".equals(result) ? "/" : result;
     }
