@@ -9,17 +9,17 @@ public class MinDepth_111 {
         if (root == null) return 0;
         Queue<TreeNode> queue = new LinkedList<>();
         queue.offer(root);
-        while (!queue.isEmpty()){
+        while (!queue.isEmpty()) {
             int size = queue.size();
             for (int i = 0; i < size; i++) {
-                TreeNode  tmp = queue.poll();
-                if (tmp.left == null && tmp.right == null){
+                TreeNode tmp = queue.poll();
+                if (tmp.left == null && tmp.right == null) {
                     return depth;
                 }
-                if (tmp.left!=null){
+                if (tmp.left != null) {
                     queue.offer(tmp.left);
                 }
-                if (tmp.right !=null){
+                if (tmp.right != null) {
                     queue.offer(tmp.right);
                 }
             }
