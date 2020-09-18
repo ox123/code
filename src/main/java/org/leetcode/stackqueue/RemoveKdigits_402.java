@@ -5,7 +5,7 @@ import java.util.ArrayDeque;
 public class RemoveKdigits_402 {
     public static void main(String[] args) {
         String num = "1234567890";
-        int n = 9;
+        int n = 2;
         System.out.println(new RemoveKdigits_402().removeKdigits(num, n));
     }
 

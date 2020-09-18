@@ -19,6 +19,14 @@
             </plugin>
         </plugins>
     </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.zookeeper</groupId>
+            <artifactId>zookeeper</artifactId>
+            <version>3.6.0</version>
+        </dependency>
+
+    </dependencies>
 
 
 </project>
