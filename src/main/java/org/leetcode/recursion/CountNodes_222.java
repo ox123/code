@@ -1,4 +1,4 @@
-package org.leetcode.search;
+package org.leetcode.recursion;
 
 import org.leetcode.utils.TreeNode;
 
