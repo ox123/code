@@ -16,16 +16,16 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println(10>>>16);
-        System.out.println(new ArrayList<Integer>(Arrays.asList(2,1,2,3,4)));
+        System.out.println(10 >>> 16);
+        System.out.println(new ArrayList<Integer>(Arrays.asList(2, 1, 2, 3, 4)));
         System.out.println(Runtime.getRuntime().availableProcessors());
-        System.out.println(Runtime.getRuntime().totalMemory()/(1024));
+        System.out.println(Runtime.getRuntime().totalMemory() / (1024));
         int n = 0;
         do {
             n++;
             System.out.println(nextHashCode());
         } while (n < 5);
-        AtomicStampedReference<String> reference =new AtomicStampedReference<String>("ABA",1);
+        AtomicStampedReference<String> reference = new AtomicStampedReference<String>("ABA", 1);
         AtomicReference<String> atomicReference = new AtomicReference<String>();
 //        atomicReference.
 //        reference.compareAndSet()

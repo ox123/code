@@ -1,4 +1,4 @@
-package org.leetcode.stackqueue;
+package org.leetcode.bfs;
 
 import java.util.ArrayList;
 import java.util.Arrays;
