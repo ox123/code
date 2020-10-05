@@ -21,4 +21,18 @@ public class ValidateStackSequences_946 {
         }
         return stack.isEmpty();
     }
+
+    public boolean validateStackSequences1(int[] pushed, int[] popped) {
+        int s = -1;
+        if (pushed.length != popped.length) return false;
+        int[] st = new int[pushed.length];
+        for (int i = 0, j = 0; i < pushed.length; i++) {
+            st[++s] = pushed[i];
+            while (s > 0 && st[s] == popped[j]) {
+                s--;
+                j++;
+            }
+        }
+        return s < 0;
+    }
 }
