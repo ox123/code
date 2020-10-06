@@ -1,60 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e7d2560e-7e1e-41fd-8e5c-175befba5ad4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../github/container/tomcat/conf/context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../github/container/tomcat/conf/context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../github/distr/sofa-jraft/jraft-core/src/main/java/com/alipay/sofa/jraft/option/NodeOptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../github/distr/sofa-jraft/jraft-core/src/main/java/com/alipay/sofa/jraft/option/NodeOptions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../github/distr/sofa-jraft/jraft-rheakv/rheakv-core/src/main/java/com/alipay/sofa/jraft/rhea/JRaftHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../github/distr/sofa-jraft/jraft-rheakv/rheakv-core/src/main/java/com/alipay/sofa/jraft/rhea/JRaftHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_45_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.classpath" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code.iml" beforeDir="false" afterPath="$PROJECT_DIR$/code.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/bit/CountingBits_338.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/bit/CountingBits_338.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/bit/FindDuplicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/bit/FindDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/bit/NumberOf1Bits_191.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/bit/NumberOf1Bits_191.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/dynamic/Candy_137.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/dynamic/Candy_137.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/dynamic/IsUgly_263.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/dynamic/IsUgly_263.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/dynamic/LongestSubstringWithoutRepeatingCharacters_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/dynamic/LongestSubstringWithoutRepeatingCharacters_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/dynamic/MaximumSubarray_53.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/dynamic/MaximumSubarray_53.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/dynamic/NthUglyNumber_264.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/dynamic/NthUglyNumber_264.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/dynamic/Triangle_120.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/dynamic/Triangle_120.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/graph/CheapestFlightsWithinKStops_787.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/graph/CheapestFlightsWithinKStops_787.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/linklist/AddTwoNums.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/linklist/AddTwoNums.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/linklist/DetectCycle_142.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/linklist/DetectCycle_142.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/linklist/HasCycle_141.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/linklist/HasCycle_141.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/linklist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/linklist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/linklist/MergeLinkList_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/linklist/MergeLinkList_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/linklist/PalindromeLinkedList_232.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/linklist/PalindromeLinkedList_232.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/search/FindPeakElement_162.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/search/FindPeakElement_162.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/search/PeakIndexInMountainArray_852.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/search/PeakIndexInMountainArray_852.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/sort/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/sort/ColorSort_75.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/sort/ColorSort_75.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/sort/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/sort/SelectSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/sort/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/sort/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/stackqueue/MinimumParentheseValid_921.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/stackqueue/MinimumParentheseValid_921.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/str/LargestNumber_179.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/str/LargestNumber_179.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/str/MaxContainer11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/str/MaxContainer11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/str/MaximumGap_164.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/str/MaximumGap_164.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/str/MoveZeroes_283.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/str/MoveZeroes_283.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/str/PalindromeNumber9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/str/PalindromeNumber9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/str/ReverseParentheses_1190.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/str/ReverseParentheses_1190.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/str/SlideWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/str/SlideWindow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/str/StringWithoutAAAOrBBB_984.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/str/StringWithoutAAAOrBBB_984.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/str/SubStringCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/str/SubStringCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/str/Sumfor3_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/str/Sumfor3_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/tree/BinaryTreeMaximumPathSum_124.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/tree/BinaryTreeMaximumPathSum_124.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/tree/CountOfSmallerNumbersAfterSelf_315.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/tree/CountOfSmallerNumbersAfterSelf_315.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/tree/IsValidBST_97.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/tree/IsValidBST_97.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/tree/LeafSumValue_129.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/tree/LeafSumValue_129.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/tree/MergeTwoBinaryTrees_617.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/tree/MergeTwoBinaryTrees_617.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/tree/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/tree/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/tree/PrintTrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/tree/PrintTrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/tree/ReverseBinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/tree/ReverseBinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/code/tree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/code/tree/TreeNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_0_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_0_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_51.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_0_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_19_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_truth_truth_0_30.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_cli_commons_cli_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_all_4_0_42_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_tcnative_boringssl_static_1_1_33_Fork26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_openmessaging_openmessaging_api_0_3_1_alpha.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_openmessaging_storage_dledger_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_java_dev_jna_jna_4_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_2_6_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/META-INF/code.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/bit/CountingBits_338.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/bit/FindDuplicate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/bit/NumberOf1Bits_191.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/dynamic/Candy_137.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/dynamic/IsUgly_263.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/dynamic/LongestSubstringWithoutRepeatingCharacters_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/dynamic/MaximumSubarray_53.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/dynamic/NthUglyNumber_264.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/dynamic/Triangle_120.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/graph/CheapestFlightsWithinKStops_787.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/linklist/AddTwoNums.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/linklist/DetectCycle_142.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/linklist/HasCycle_141.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/linklist/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/linklist/MergeLinkList_21.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/linklist/PalindromeLinkedList_232.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/search/FindPeakElement_162.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/search/PeakIndexInMountainArray_852.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/sort/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/sort/ColorSort_75.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/sort/InsertSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/sort/SelectSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/sort/Utils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/stackqueue/MinimumParentheseValid_921.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/LargestNumber_179$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/LargestNumber_179.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/MaxContainer11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/MaximumGap_164.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/MoveZeroes_283.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/PalindromeNumber9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/ReverseParentheses_1190.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/SlideWindow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/StringWithoutAAAOrBBB_984.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/SubStringCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/str/Sumfor3_15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/tree/BinaryTreeMaximumPathSum_124.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/tree/CountOfSmallerNumbersAfterSelf_315.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/tree/IsValidBST_97.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/tree/LeafSumValue_129.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/tree/MergeTwoBinaryTrees_617.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/tree/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/tree/PrintTrees.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/tree/ReverseBinaryTree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/code/org/code/tree/TreeNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/others/tree/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/others/tree/BST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,18 +162,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="D:\code\project\code\.idea" />
-      </set>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:\software\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -120,11 +178,11 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -133,7 +191,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
   <component name="RunManager" selected="Application.CheapestFlightsWithinKStops_787">
     <configuration name="CheapestFlightsWithinKStops_787" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -218,18 +276,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -277,23 +324,26 @@
         </entry>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-    <option name="OPEN_TABS">
-      <set>
-        <option value="1" />
-      </set>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
+      </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="372" y="159" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1578130641297">
+    <state x="123" y="302" key="FileChooserDialogImpl" timestamp="1601975812828">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="372" y="159" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1500.960@0.0.1500.960" timestamp="1578130641297" />
+    <state x="123" y="302" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1601975812828" />
+    <state x="253" y="110" key="SettingsEditor" timestamp="1601975832177">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="253" y="110" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1601975832177" />
   </component>
 </project>

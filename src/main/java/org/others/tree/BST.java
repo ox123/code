@@ -17,7 +17,6 @@ public class BST {
 			if (list.get(i) > list.get(i+1)) {
 				return false;
 			}
-			
 		}
 		return true;
 	}

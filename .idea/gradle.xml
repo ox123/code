@@ -4,38 +4,39 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../../github/container/tomcat" />
-        <option name="gradleHome" value="D:/software/gradle" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../../github/container/tomcat" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../../github/distr/sofa-jraft" />
-        <option name="gradleHome" value="D:/software/gradle" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../../github/distr/sofa-jraft" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../alg" />
-        <option name="gradleHome" value="D:/software/gradle" />
         <option name="gradleJvm" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../alg" />
           </set>
         </option>
-        <option name="useQualifiedModuleNames" value="true" />
       </GradleProjectSettings>
     </option>
   </component>
