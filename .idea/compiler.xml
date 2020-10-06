@@ -2,31 +2,23 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$PROJECT_DIR$/../../software/gradle-6.6.1/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+        </processorPath>
+        <module name="jsoncat.test" />
+        <module name="jsoncat.main" />
+      </profile>
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rocketmq-client" />
-        <module name="rocketmq-store" />
+        <module name="dledger" />
         <module name="code" />
-        <module name="rocketmq-openmessaging" />
-        <module name="rocketmq-logging" />
-        <module name="rocketmq-acl" />
-        <module name="rocketmq-logappender" />
-        <module name="rocketmq-common" />
-        <module name="rocketmq-broker" />
-        <module name="rocketmq-test" />
-        <module name="rocketmq-srvutil" />
-        <module name="rocketmq-remoting" />
-        <module name="rocketmq-filter" />
-        <module name="rocketmq-tools" />
-        <module name="rocketmq-namesrv" />
-        <module name="rocketmq-example" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="alg.main" target="1.8" />
-      <module name="alg.test" target="1.8" />
       <module name="code" target="8" />
       <module name="rocketmq-acl" target="1.8" />
       <module name="rocketmq-all" target="1.8" />

@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alg.iml" filepath="$PROJECT_DIR$/.idea/modules/alg.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alg.main.iml" filepath="$PROJECT_DIR$/.idea/modules/alg.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/alg.test.iml" filepath="$PROJECT_DIR$/.idea/modules/alg.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/code.iml" filepath="$PROJECT_DIR$/code.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../github/mq/rocketmq/acl/rocketmq-acl.iml" filepath="$PROJECT_DIR$/../../github/mq/rocketmq/acl/rocketmq-acl.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../github/mq/rocketmq/rocketmq-all.iml" filepath="$PROJECT_DIR$/../../github/mq/rocketmq/rocketmq-all.iml" />
@@ -23,8 +20,6 @@
       <module fileurl="file://$PROJECT_DIR$/../../github/mq/rocketmq/store/rocketmq-store.iml" filepath="$PROJECT_DIR$/../../github/mq/rocketmq/store/rocketmq-store.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../github/mq/rocketmq/test/rocketmq-test.iml" filepath="$PROJECT_DIR$/../../github/mq/rocketmq/test/rocketmq-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../github/mq/rocketmq/tools/rocketmq-tools.iml" filepath="$PROJECT_DIR$/../../github/mq/rocketmq/tools/rocketmq-tools.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sofa-jraft.iml" filepath="$PROJECT_DIR$/.idea/modules/sofa-jraft.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tomcat.iml" filepath="$PROJECT_DIR$/.idea/modules/tomcat.iml" />
     </modules>
   </component>
 </project>

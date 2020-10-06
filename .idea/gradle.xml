@@ -38,6 +38,17 @@
           </set>
         </option>
       </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../jsoncat" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../software/gradle-6.6.1" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../jsoncat" />
+          </set>
+        </option>
+      </GradleProjectSettings>
     </option>
   </component>
 </project>
