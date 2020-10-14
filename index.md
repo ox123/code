@@ -5,6 +5,8 @@
 4. reverse status
 
 --- 
+### backstrak
+- [46-Permutations](src/main/java/org/leetcode/recursion/Permutations_46.java)
 ### Tree
 - [101-SymmetricTree](src/main/java/org/leetcode/tree/SymmetricTree_101.java)
 ### Queue

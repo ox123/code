@@ -2,6 +2,11 @@ package org.leetcode.stackqueue;
 
 import java.util.ArrayDeque;
 
+/**
+ * Given a non-negative integer num represented as a string,
+ * remove k digits from the number
+ * so that the new number is the smallest possible.
+ */
 public class RemoveKdigits_402 {
     public static void main(String[] args) {
         String num = "1234567890";
