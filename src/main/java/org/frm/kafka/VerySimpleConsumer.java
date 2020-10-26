@@ -27,6 +27,7 @@ public class VerySimpleConsumer {
             // Continuously read records from the topic
             while (true) {
                 final ConsumerRecords<String, String> records = consumer.poll(Duration.ofSeconds(1));
+                System.out.println(records.count());
                 for (ConsumerRecord<String, String> record : records) {
                     System.out.println("Received: " + record);
                 }
