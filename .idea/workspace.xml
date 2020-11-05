@@ -23,34 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e7d2560e-7e1e-41fd-8e5c-175befba5ad4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/frm/kafka/AdminClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/windows/SlidingWindowMaximum_239.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github/storage/kafka/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../github/storage/kafka/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github/storage/openmessaging-storage-dledger/src/main/java/io/openmessaging/storage/dledger/DLedger.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../github/storage/openmessaging-storage-dledger/src/main/java/io/openmessaging/storage/dledger/DLedger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../github/storage/openmessaging-storage-dledger/src/main/java/io/openmessaging/storage/dledger/DLedgerEntryPusher.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../github/storage/openmessaging-storage-dledger/src/main/java/io/openmessaging/storage/dledger/DLedgerEntryPusher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_lang_commons_lang_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_45_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_45_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_45_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_45_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_45_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_45_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_45_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_45_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_jute_3_6_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_25.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/alg.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/alg.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/alg.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/alg.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/alg.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/sofa-jraft.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/tomcat.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/leetcode/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/leetcode/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +52,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/../../github/distr/sofa-jraft">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/../../github/storage/kafka">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/../alg">
@@ -121,13 +111,13 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../github/storage/kafka" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
   </component>
-  <component name="RunManager" selected="Application.CheapestFlightsWithinKStops_787">
+  <component name="RunManager" selected="Application.SlidingWindowMaximum_239">
     <configuration name="CheapestFlightsWithinKStops_787" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.code.graph.CheapestFlightsWithinKStops_787" />
       <module name="code" />
@@ -154,6 +144,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.Main" />
+      <module name="code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaximumGap_164" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.code.str.MaximumGap_164" />
       <module name="code" />
@@ -167,25 +170,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoveZeroes_283" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.code.str.MoveZeroes_283" />
+    <configuration name="SlidingWindowMaximum_239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.leetcode.windows.SlidingWindowMaximum_239" />
       <module name="code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.code.str.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sumfor3_15" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.code.str.Sumfor3_15" />
-      <module name="code" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.code.str.*" />
+          <option name="PATTERN" value="org.leetcode.windows.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,19 +184,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MoveZeroes_283" />
-      <item itemvalue="Application.Sumfor3_15" />
       <item itemvalue="Application.LargestNumber_179" />
       <item itemvalue="Application.MaximumGap_164" />
       <item itemvalue="Application.CheapestFlightsWithinKStops_787" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.SlidingWindowMaximum_239" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SlidingWindowMaximum_239" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CheapestFlightsWithinKStops_787" />
         <item itemvalue="Application.MaximumGap_164" />
         <item itemvalue="Application.LargestNumber_179" />
-        <item itemvalue="Application.Sumfor3_15" />
-        <item itemvalue="Application.MoveZeroes_283" />
       </list>
     </recent_temporary>
   </component>
@@ -275,17 +265,40 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="511" y="283" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1500.960@0.0.1500.960" timestamp="1601996085301" />
-    <state x="123" y="302" key="FileChooserDialogImpl" timestamp="1601990188411">
-      <screen x="0" y="0" width="1500" height="960" />
+    <state x="157" y="294" width="440" height="632" key="FileChooserDialogImpl" timestamp="1604178610787">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="123" y="302" key="FileChooserDialogImpl/0.0.1500.960@0.0.1500.960" timestamp="1601990188411" />
-    <state x="441" y="241" key="NewModule_or_Project.wizard" timestamp="1601990192082">
-      <screen x="0" y="0" width="1500" height="960" />
+    <state x="157" y="294" width="440" height="632" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604178610787" />
+    <state width="1877" height="406" key="GridCell.Tab.0.bottom" timestamp="1604607912573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604607912573" />
+    <state width="1877" height="406" key="GridCell.Tab.0.center" timestamp="1604607912573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="406" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604607912573" />
+    <state width="1877" height="406" key="GridCell.Tab.0.left" timestamp="1604607912573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="406" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604607912573" />
+    <state width="1877" height="406" key="GridCell.Tab.0.right" timestamp="1604607912573">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="406" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604607912573" />
+    <state x="564" y="261" key="NewModule_or_Project.wizard" timestamp="1604178613144">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="441" y="241" key="NewModule_or_Project.wizard/0.0.1500.960@0.0.1500.960" timestamp="1601990192082" />
-    <state x="253" y="110" key="SettingsEditor" timestamp="1601990197442">
-      <screen x="0" y="0" width="1500" height="960" />
+    <state x="564" y="261" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604178613144" />
+    <state x="324" y="119" key="SettingsEditor" timestamp="1604178617256">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="253" y="110" key="SettingsEditor/0.0.1500.960@0.0.1500.960" timestamp="1601990197442" />
+    <state x="324" y="119" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604178617256" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1604601011121">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604601011121" />
   </component>
 </project>

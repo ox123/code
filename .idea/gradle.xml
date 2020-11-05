@@ -27,6 +27,51 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../../github/storage/kafka" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../software/gradle-6.6.1" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../../github/storage/kafka" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/clients" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/connect" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/connect/api" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/connect/basic-auth-extension" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/connect/file" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/connect/json" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/connect/mirror" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/connect/mirror-client" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/connect/runtime" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/connect/transforms" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/core" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/examples" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/generator" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/jmh-benchmarks" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/log4j-appender" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/raft" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/examples" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/streams-scala" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/test-utils" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-0100" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-0101" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-0102" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-0110" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-10" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-11" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-20" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-21" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-22" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-23" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-24" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-25" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/streams/upgrade-system-tests-26" />
+            <option value="$PROJECT_DIR$/../../github/storage/kafka/tools" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="delegatedBuild" value="true" />
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />

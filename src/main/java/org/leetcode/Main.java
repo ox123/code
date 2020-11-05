@@ -16,6 +16,12 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        Object obj = new Object();
+//        try {
+//            obj.wait();
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         System.out.println(10 >>> 16);
         System.out.println(new ArrayList<Integer>(Arrays.asList(2, 1, 2, 3, 4)));
         System.out.println(Runtime.getRuntime().availableProcessors());
