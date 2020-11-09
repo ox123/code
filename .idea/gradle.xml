@@ -8,6 +8,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../../github/container/tomcat" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../software/gradle-6.6.1" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
@@ -20,6 +21,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../../github/distr/sofa-jraft" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../software/gradle-6.6.1" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/../../github/distr/sofa-jraft" />
@@ -27,6 +29,8 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../../github/storage/kafka" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../software/gradle-6.6.1" />
@@ -76,6 +80,7 @@
         <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../alg" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../software/gradle-6.6.1" />
         <option name="gradleJvm" />
         <option name="modules">
           <set>
@@ -84,6 +89,8 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/../jsoncat" />
         <option name="gradleHome" value="$PROJECT_DIR$/../../software/gradle-6.6.1" />

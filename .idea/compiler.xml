@@ -12,6 +12,34 @@
         </processorPath>
         <module name="kafka.jmh-benchmarks.main" />
       </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jraft-rheakv-pd" />
+        <module name="rocketmq-client" />
+        <module name="rocketmq-store" />
+        <module name="code" />
+        <module name="rocketmq-openmessaging" />
+        <module name="jraft-example" />
+        <module name="rocketmq-logging" />
+        <module name="rpc-grpc-impl" />
+        <module name="jraft-test" />
+        <module name="rocketmq-logappender" />
+        <module name="rocketmq-acl" />
+        <module name="rocketmq-common" />
+        <module name="jraft-rheakv-core" />
+        <module name="rocketmq-broker" />
+        <module name="jraft-core" />
+        <module name="rocketmq-test" />
+        <module name="dledger" />
+        <module name="rocketmq-srvutil" />
+        <module name="rocketmq-remoting" />
+        <module name="rocketmq-filter" />
+        <module name="rocketmq-tools" />
+        <module name="rocketmq-namesrv" />
+        <module name="rocketmq-example" />
+      </profile>
     </annotationProcessing>
   </component>
 </project>
