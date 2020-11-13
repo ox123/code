@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class MoveZeroes_283 {
     public static void main(String[] args) {
-        int nums[] = new int[]{0,1,0,3,12};
+        int nums[] = new int[]{0, 1, 0, 3, 12};
         new MoveZeroes_283().moveZeroes(nums);
         System.out.println(Arrays.toString(nums));
     }
@@ -20,7 +20,7 @@ public class MoveZeroes_283 {
                 nums[index++] = num;
             }
         }
-        while (index< nums.length){
+        while (index < nums.length) {
             nums[index++] = 0;
         }
     }

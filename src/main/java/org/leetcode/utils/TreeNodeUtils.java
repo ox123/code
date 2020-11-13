@@ -3,6 +3,7 @@ package org.leetcode.utils;
 public class TreeNodeUtils {
     /**
      * 中序遍历
+     *
      * @param treeNode
      */
     public static void printInOrder(TreeNode treeNode) {
@@ -13,6 +14,7 @@ public class TreeNodeUtils {
 
     /**
      * 前序遍历
+     *
      * @param treeNode
      */
     public static void printPreOrder(TreeNode treeNode) {
@@ -23,6 +25,7 @@ public class TreeNodeUtils {
 
     /**
      * 后序遍历
+     *
      * @param treeNode
      */
     public static void printPostOrder(TreeNode treeNode) {
@@ -31,7 +34,7 @@ public class TreeNodeUtils {
         System.out.println(treeNode.val);
     }
 
-    public static TreeNode generate(){
+    public static TreeNode generate() {
         return null;
     }
 }

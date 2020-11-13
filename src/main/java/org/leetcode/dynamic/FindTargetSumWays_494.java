@@ -10,28 +10,27 @@ public class FindTargetSumWays_494 {
     }
 
     /**
-     *使用0-1背包方式, TODO 理解
-     *
+     * 使用0-1背包方式, TODO 理解
+     * <p>
      * 参考：https://leetcode-cn.com/problems/target-sum/solution/mu-biao-he-by-leetcode/
-     *
      */
     public int findTargetSumWays(int[] nums, int S) {
 //        使用dfs方式
 //        calculate(nums, 0, 0, S);
-        int sum = 0 ;
+        int sum = 0;
         for (int x :
                 nums) {
             sum += x;
         }
-        if ((S+sum)%2 == 1 || S>sum) return 0;
-        S = (S+sum)>>1;
-        int []dp = new int[S+1];
-        Arrays.fill(dp,0);
+        if ((S + sum) % 2 == 1 || S > sum) return 0;
+        S = (S + sum) >> 1;
+        int[] dp = new int[S + 1];
+        Arrays.fill(dp, 0);
         dp[0] = 1;
         for (int x :
                 nums) {
-            for (int i = S ; i >= x ; i--) {
-                dp[i] += dp[i-x];
+            for (int i = S; i >= x; i--) {
+                dp[i] += dp[i - x];
             }
         }
         int ans = dp[S];

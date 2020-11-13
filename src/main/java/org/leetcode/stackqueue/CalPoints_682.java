@@ -9,26 +9,23 @@ public class CalPoints_682 {
 //        System.out.println(new CalPoints_682().test(ops));
     }
 
-    private int test(String[] ops){
+    private int test(String[] ops) {
         Stack<Integer> s = new Stack<>();
         int total = 0, temp;
-        for(String op : ops) {           //  for each loop for string array
-            if(op.equals("C")) {
+        for (String op : ops) {           //  for each loop for string array
+            if (op.equals("C")) {
                 total -= s.pop();
-            }
-            else if(op.equals("D")) {
-                temp = 2*s.peek();
+            } else if (op.equals("D")) {
+                temp = 2 * s.peek();
                 s.push(temp);
                 total += temp;
-            }
-            else if(op.equals("+")) {
+            } else if (op.equals("+")) {
                 temp = s.pop();
                 int sum = temp + s.peek();
                 s.push(temp);
                 s.push(sum);
                 total += sum;
-            }
-            else {
+            } else {
                 temp = Integer.parseInt(op);
                 s.push(temp);
                 total += temp;

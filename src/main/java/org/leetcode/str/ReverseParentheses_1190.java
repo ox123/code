@@ -25,17 +25,17 @@ public class ReverseParentheses_1190 {
         stack.push("");
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if (c == 'c'){
+            if (c == 'c') {
                 stack.push("");
-            }else if (c == ')'){
+            } else if (c == ')') {
                 String pop = stack.pop();
                 StringBuilder builder = new StringBuilder(stack.pop());
-                for (int j = pop.length()-1;j>=0; j--) {
+                for (int j = pop.length() - 1; j >= 0; j--) {
                     char cc = pop.charAt(j);
                     builder.append(cc);
                 }
                 stack.push(builder.toString());
-            }else {
+            } else {
                 String pop = stack.pop();
                 pop += c;
                 stack.push(pop);

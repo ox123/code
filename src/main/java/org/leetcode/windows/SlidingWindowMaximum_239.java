@@ -8,9 +8,10 @@ import java.util.LinkedList;
  */
 public class SlidingWindowMaximum_239 {
     public static void main(String[] args) {
-        int nums[] = {1,3,-1,-3,5,3,6,7};
-        System.out.println(Arrays.toString(new SlidingWindowMaximum_239().maxSlidingWindow(nums,3)));
+        int nums[] = {1, 3, -1, -3, 5, 3, 6, 7};
+        System.out.println(Arrays.toString(new SlidingWindowMaximum_239().maxSlidingWindow(nums, 3)));
     }
+
     public int[] maxSlidingWindow(int[] nums, int k) {
         if (nums == null || k < 1 || nums.length < k) return null;
         int length = nums.length;

@@ -18,8 +18,8 @@ public class ReverseLink_206 {
         NodeUtils.printNodeWithOneLine(new ReverseLink_206().reverseWithRecurse(nodeList));
     }
 
-    public ListNode reverseWithRecurse(ListNode node){
-        if (node.next == null){
+    public ListNode reverseWithRecurse(ListNode node) {
+        if (node.next == null) {
             return node;
         }
         ListNode newHead = reverseWithRecurse(node.next);

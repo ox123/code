@@ -13,15 +13,16 @@ public class FindAnagrams_438 {
         String t = "ab";
         int length = s.length();
         for (int i = 0; i <= length - t.length(); i++) {
-            System.out.println(s.substring(i,i+2));
+            System.out.println(s.substring(i, i + 2));
         }
-        System.out.println(s.substring(2,t.length()));
+        System.out.println(s.substring(2, t.length()));
         System.out.println(new FindAnagrams_438().findAnagrams(s, t));
     }
 
     /**
-     *Runtime: 1992 ms, faster than 5.01% of Java online submissions for Find All Anagrams in a String.
+     * Runtime: 1992 ms, faster than 5.01% of Java online submissions for Find All Anagrams in a String.
      * Memory Usage: 43.6 MB, less than 6.00% of Java online submissions for Find All Anagrams in a String.
+     *
      * @param s
      * @param p
      * @return

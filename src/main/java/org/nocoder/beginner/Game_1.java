@@ -7,7 +7,7 @@ public class Game_1 {
         Scanner scanner = new Scanner(System.in);
 //        HashMap
         int n = scanner.nextInt();
-        while(n-->0){
+        while (n-- > 0) {
             System.out.println("");
 //            int
         }

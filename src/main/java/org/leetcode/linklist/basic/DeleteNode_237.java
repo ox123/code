@@ -14,11 +14,11 @@ public class DeleteNode_237 {
     }
 
     public void deleteNode1(ListNode node) {
-       while(node.next.next !=null){
-           node.val = node.next.val;
-           node = node.next;
-       }
-       node.val = node.next.val;
-       node.next = null;
+        while (node.next.next != null) {
+            node.val = node.next.val;
+            node = node.next;
+        }
+        node.val = node.next.val;
+        node.next = null;
     }
 }

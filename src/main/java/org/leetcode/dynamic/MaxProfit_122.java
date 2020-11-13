@@ -22,7 +22,7 @@ public class MaxProfit_122 {
             if (prices[i] < prices[i + 1]) {
                 max += (prices[i + 1] - prices[i]);
             }
-    }
+        }
         return max;
     }
 

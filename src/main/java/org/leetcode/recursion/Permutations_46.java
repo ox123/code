@@ -35,6 +35,7 @@ public class Permutations_46 {
 
     /**
      * 另外一种思路
+     *
      * @param nums
      * @return
      */
@@ -49,7 +50,7 @@ public class Permutations_46 {
     }
 
     private void collectPermutations(int[] nums, int start, List<Integer> permutation,
-                                     List<List<Integer>>  permutations) {
+                                     List<List<Integer>> permutations) {
 
         if (permutation.size() == nums.length) {
             permutations.add(permutation);

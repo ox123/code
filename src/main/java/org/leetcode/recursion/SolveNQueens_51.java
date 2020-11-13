@@ -69,6 +69,7 @@ public class SolveNQueens_51 {
      *
      */
     private List<List<String>> ans = new ArrayList<>();
+
     private void solve(List<String> res, int n, int shu, int pia, int na) {
         if (res.size() == n) {
             ans.add(new ArrayList<>(res));

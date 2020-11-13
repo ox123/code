@@ -13,6 +13,7 @@ public class PowerLaw {
     /**
      * rediso中获取层高的算法
      * 0xFFFF  64位系统为65536
+     *
      * @return
      */
     int zslRandomLevel() {

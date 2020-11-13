@@ -15,6 +15,7 @@ public class Kettle {
             kettles[1] = k1;
             kettles[2] = k2;
         }
+
         Status(Status status) {
             kettles[0] = status.kettles[0];
             kettles[1] = status.kettles[1];

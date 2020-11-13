@@ -15,7 +15,7 @@ public class NaryTreePreorderTraversal_589 {
         while (!stack.isEmpty()) {
             Node pop = stack.pop();
             res.add(pop.val);
-            for (int i = pop.children.size()-1; i >= 0; i--) {
+            for (int i = pop.children.size() - 1; i >= 0; i--) {
                 stack.push(pop.children.get(i));
             }
         }

@@ -8,7 +8,7 @@ import java.util.*;
  */
 public class GroupAnagrams_49 {
     public static void main(String[] args) {
-        String [] arr = new String[]{"eat", "tea", "tan", "ate", "nat", "bat"};
+        String[] arr = new String[]{"eat", "tea", "tan", "ate", "nat", "bat"};
         System.out.println(new GroupAnagrams_49().groupAnagrams(arr));
     }
 

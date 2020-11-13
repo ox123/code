@@ -33,7 +33,7 @@ public class NodeUtils {
         return arrayList;
     }
 
-    public static ListNode generateNodeList(int []nums){
+    public static ListNode generateNodeList(int[] nums) {
         ListNode head = new ListNode(0);
         ListNode result = head;
         for (int i = 0; i < nums.length; i++) {
@@ -45,7 +45,7 @@ public class NodeUtils {
     }
 
     public static void main(String[] args) {
-        int []nums  = {1,3,4};
+        int[] nums = {1, 3, 4};
         ListNode nodeList = generateNodeList(nums);
         printNode(nodeList);
         printNodeWithOneLine(nodeList);

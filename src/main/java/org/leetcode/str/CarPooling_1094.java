@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class CarPooling_1094 {
     public static void main(String[] args) {
         int[][] trips = {{2, 1, 5}, {3, 3, 7}};
-        System.out.println(new CarPooling_1094().carPooling(trips,4));
+        System.out.println(new CarPooling_1094().carPooling(trips, 4));
     }
 
     public boolean carPooling(int[][] trips, int capacity) {
@@ -16,7 +16,7 @@ public class CarPooling_1094 {
         int num = 1001;
         int n = trips.length;
         int[] a = new int[num];
-        Arrays.fill(a,0);
+        Arrays.fill(a, 0);
 //        for (int i = 0; i < num; i++) {
 //            a[i] = 0;
 //        }

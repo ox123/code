@@ -6,7 +6,7 @@ public class SlideWindow {
     public static void main(String[] args) {
         int[] nums = new int[]{7, 2, 4};
         String s = "abcabcab";
-        System.out.println(Arrays.toString(new SlideWindow().maxSlidingWindow(nums,2)));
+        System.out.println(Arrays.toString(new SlideWindow().maxSlidingWindow(nums, 2)));
     }
 
 

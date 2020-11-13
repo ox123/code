@@ -22,7 +22,7 @@ public class BinaryTreePreorderTraversal_144 {
 
     public List<Integer> preorderTraversalWithRecurse(TreeNode root) {
         List<Integer> res = new ArrayList<>();
-        if (root!=null){
+        if (root != null) {
             help(root, res);
         }
         return res;

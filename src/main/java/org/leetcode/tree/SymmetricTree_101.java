@@ -32,16 +32,17 @@ public class SymmetricTree_101 {
 
     /**
      * recurse method
+     *
      * @param root
      * @return
      */
     public boolean isSymmetric(TreeNode root) {
-        return isMirror(root,root);
+        return isMirror(root, root);
     }
 
     private boolean isMirror(TreeNode left, TreeNode right) {
-        if (left == null && right == null) return  true;
-        if (left == null || right == null || left.val !=right.val) return false;
-       return isMirror(left.left,right.right) && isMirror(left.right,right.left);
+        if (left == null && right == null) return true;
+        if (left == null || right == null || left.val != right.val) return false;
+        return isMirror(left.left, right.right) && isMirror(left.right, right.left);
     }
 }

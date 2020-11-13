@@ -66,6 +66,7 @@ public class LongestSubstringWithoutRepeatingCharacters_3 {
 
     /**
      * TODO https://leetcode.com/problems/longest-substring-without-repeating-characters/discuss/471513/Efficient-Java-Solution-in-O(n)-time-and-O(1)-Space-with-clear-explanation
+     *
      * @param s
      * @return
      */
@@ -75,12 +76,12 @@ public class LongestSubstringWithoutRepeatingCharacters_3 {
 
         int[] characters = new int[256];
 
-        for (int i = 0; i < s.length(); i++){
+        for (int i = 0; i < s.length(); i++) {
             int currentChar = (int) s.charAt(i);
             if (characters[currentChar] != 0)
                 leftPointer = Math.max(characters[currentChar], leftPointer);
-            max = Math.max(max, i-leftPointer+1);
-            characters[currentChar] = i+1;
+            max = Math.max(max, i - leftPointer + 1);
+            characters[currentChar] = i + 1;
         }
         return max;
     }
@@ -88,6 +89,7 @@ public class LongestSubstringWithoutRepeatingCharacters_3 {
     /**
      * TODO 深入理解思路，时间复杂度和空间复杂度都是o(n)
      * 使用滑动窗口保存当前的值，并不停的更新res
+     *
      * @param s
      * @return
      */

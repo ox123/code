@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 public class SimpleDateFormatTest {
-    private static final ThreadLocal<DateFormat> df = new ThreadLocal<DateFormat>(){
+    private static final ThreadLocal<DateFormat> df = new ThreadLocal<DateFormat>() {
         @Override
         protected DateFormat initialValue() {
             return new SimpleDateFormat("yyyy-MM-dd");

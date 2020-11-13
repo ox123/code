@@ -17,6 +17,7 @@ public class QuickSortMain {
 
     /**
      * 获取partition值
+     *
      * @param nums
      * @param left
      * @param right
@@ -54,6 +55,7 @@ public class QuickSortMain {
 
     /**
      * 优化后的获取中轴值
+     *
      * @param arr
      * @param left
      * @param right

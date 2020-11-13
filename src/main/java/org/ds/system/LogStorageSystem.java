@@ -15,7 +15,7 @@ public class LogStorageSystem {
         logStorageSystem.put(2, "2017:01:01:22:59:59");
         logStorageSystem.put(3, "2016:01:01:00:00:00");
         System.out.println(logStorageSystem.retrieve("2016:01:01:01:01:01", "2017:01:01:23:00:00", "Year"));
-        System.out.println(logStorageSystem.retrieve("2016:01:01:01:01:01","2017:01:01:23:00:00","Hour"));
+        System.out.println(logStorageSystem.retrieve("2016:01:01:01:01:01", "2017:01:01:23:00:00", "Hour"));
     }
 
     public String getKeyByGra(String timestamp, String gra) {

@@ -14,27 +14,27 @@ public class ValidParentheses_20 {
         for (int i = 0; i < lenth; i++) {
             char c = s.charAt(i);
             if (c == '{') {
-              stack.push('{');
+                stack.push('{');
             } else if (c == '(') {
                 stack.push('(');
             } else if (c == '[') {
                 stack.push('[');
             } else if (c == '}') {
-               if (stack.isEmpty() || stack.peek() != '{'){
-                   return  false;
-               }else{
-                   stack.pop();
-               }
+                if (stack.isEmpty() || stack.peek() != '{') {
+                    return false;
+                } else {
+                    stack.pop();
+                }
             } else if (c == ')') {
-                if (stack.isEmpty() || stack.peek() != '('){
-                    return  false;
-                }else{
+                if (stack.isEmpty() || stack.peek() != '(') {
+                    return false;
+                } else {
                     stack.pop();
                 }
             } else if (c == ']') {
-                if (stack.isEmpty() || stack.peek() != '['){
-                    return  false;
-                }else{
+                if (stack.isEmpty() || stack.peek() != '[') {
+                    return false;
+                } else {
                     stack.pop();
                 }
             }
@@ -44,6 +44,7 @@ public class ValidParentheses_20 {
 
     /**
      * 对上面程序进行优化
+     *
      * @param s
      * @return
      */
@@ -53,7 +54,7 @@ public class ValidParentheses_20 {
         for (char c : s.toCharArray()) {
             Character e = null;
 
-            switch(c) {
+            switch (c) {
                 case '(':
                     e = ')';
                     break;
@@ -66,7 +67,7 @@ public class ValidParentheses_20 {
             }
             if (e != null) {
                 expected.push(e);
-            } else if(expected.size() == 0 || expected.pop() != c) {
+            } else if (expected.size() == 0 || expected.pop() != c) {
                 return false;
             }
         }

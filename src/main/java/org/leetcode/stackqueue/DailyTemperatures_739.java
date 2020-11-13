@@ -14,14 +14,15 @@ public class DailyTemperatures_739 {
         int[] res = new int[length];
         Stack<Integer> stack = new Stack<>();
         for (int i = 0; i < length; i++) {
-            while (!stack.isEmpty() && T[i] > stack.peek()){
-                int x =  stack.pop();
-                res[x] = i-x;
+            while (!stack.isEmpty() && T[i] > stack.peek()) {
+                int x = stack.pop();
+                res[x] = i - x;
             }
             stack.push(i);
         }
         return res;
     }
+
     /**
      * 暴力解法
      *

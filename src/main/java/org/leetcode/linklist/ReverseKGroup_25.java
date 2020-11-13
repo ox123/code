@@ -13,7 +13,7 @@ public class ReverseKGroup_25 {
         node3.next = node4;
         ListNode node5 = new ListNode(5);
         node4.next = node5;
-        NodeUtils.printNodeWithOneLine(new ReverseKGroup_25().reverseKGroup(node1,3));
+        NodeUtils.printNodeWithOneLine(new ReverseKGroup_25().reverseKGroup(node1, 3));
     }
 
     public ListNode reverseKGroup(ListNode head, int k) {
@@ -38,6 +38,7 @@ public class ReverseKGroup_25 {
 
     /**
      * 反转所有数据
+     *
      * @param head
      * @param k
      * @return

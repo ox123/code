@@ -8,9 +8,10 @@ import java.util.HashSet;
  */
 public class FindErrorNums_645 {
     public static void main(String[] args) {
-        int []nums = {1,2,2,4};
+        int[] nums = {1, 2, 2, 4};
         System.out.println(Arrays.toString(new FindErrorNums_645().findErrorNums(nums)));
     }
+
     public int[] findErrorNums(int[] nums) {
         int[] res = new int[2];
         int n = nums.length;

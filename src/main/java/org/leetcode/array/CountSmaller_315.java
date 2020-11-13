@@ -12,13 +12,14 @@ public class CountSmaller_315 {
     public static void main(String[] args) {
         int[] nums = {5, 2, 6, 1};
         System.out.println(Arrays.toString(new CountSmaller_315().countSmaller(nums).toArray()));
-        System.out.println(Arrays.toString(((URLClassLoader)CountSmaller_315.class.getClassLoader()).getURLs()));
+        System.out.println(Arrays.toString(((URLClassLoader) CountSmaller_315.class.getClassLoader()).getURLs()));
     }
 
     /**
      * Runtime: 621 ms, faster than 22.89% of Java online submissions for Count of Smaller Numbers After Self.
      * Memory Usage: 42.1 MB, less than 5.55% of Java online submissions for Count of Smaller Numbers After Self.
      * 暴力破解，复杂度太高
+     *
      * @param nums
      * @return
      */

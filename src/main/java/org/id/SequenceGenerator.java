@@ -12,13 +12,14 @@ public class SequenceGenerator {
     public static void main(String[] args) {
         System.out.println(new SequenceGenerator().nextId());
     }
+
     private static final int UNUSED_BITS = 1; // Sign bit, Unused (always set to 0)
     private static final int EPOCH_BITS = 41;
     private static final int NODE_ID_BITS = 10;
     private static final int SEQUENCE_BITS = 12;
 
-    private static final int maxNodeId = (int)(Math.pow(2, NODE_ID_BITS) - 1);
-    private static final int maxSequence = (int)(Math.pow(2, SEQUENCE_BITS) - 1);
+    private static final int maxNodeId = (int) (Math.pow(2, NODE_ID_BITS) - 1);
+    private static final int maxSequence = (int) (Math.pow(2, SEQUENCE_BITS) - 1);
 
     // Custom Epoch (January 1, 2015 Midnight UTC = 2015-01-01T00:00:00Z)
     private static final long CUSTOM_EPOCH = 1420070400000L;
@@ -30,7 +31,7 @@ public class SequenceGenerator {
 
     // Create SequenceGenerator with a nodeId
     public SequenceGenerator(int nodeId) {
-        if(nodeId < 0 || nodeId > maxNodeId) {
+        if (nodeId < 0 || nodeId > maxNodeId) {
             throw new IllegalArgumentException(String.format("NodeId must be between %d and %d", 0, maxNodeId));
         }
         this.nodeId = nodeId;
@@ -44,13 +45,13 @@ public class SequenceGenerator {
     public synchronized long nextId() {
         long currentTimestamp = timestamp();
 
-        if(currentTimestamp < lastTimestamp) {
+        if (currentTimestamp < lastTimestamp) {
             throw new IllegalStateException("Invalid System Clock!");
         }
 
         if (currentTimestamp == lastTimestamp) {
             sequence = (sequence + 1) & maxSequence;
-            if(sequence == 0) {
+            if (sequence == 0) {
                 // Sequence Exhausted, wait till next millisecond.
                 currentTimestamp = waitNextMillis(currentTimestamp);
             }
@@ -90,7 +91,7 @@ public class SequenceGenerator {
                 NetworkInterface networkInterface = networkInterfaces.nextElement();
                 byte[] mac = networkInterface.getHardwareAddress();
                 if (mac != null) {
-                    for(int i = 0; i < mac.length; i++) {
+                    for (int i = 0; i < mac.length; i++) {
                         sb.append(String.format("%02X", mac[i]));
                     }
                 }

@@ -28,6 +28,7 @@ public class IsUgly_263 {
     /**
      * Runtime: 1 ms, faster than 100.00% of Java online submissions for Ugly Number.
      * Memory Usage: 33.7 MB, less than 6.25% of Java online submissions for Ugly Number.
+     *
      * @param num
      * @return
      */

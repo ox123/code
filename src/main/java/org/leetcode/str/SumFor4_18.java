@@ -17,13 +17,14 @@ public class SumFor4_18 {
      * Runtime: 16 ms, faster than 75.61% of Java online submissions for 4Sum.
      * Memory Usage: 40.2 MB, less than 53.62% of Java online submissions for 4Sum.
      * TODO 时间复杂度和空间复杂度有待提升
+     *
      * @param nums
      * @param target
      * @return
      */
     public List<List<Integer>> fourSum(int[] nums, int target) {
         List<List<Integer>> result = new ArrayList<List<Integer>>();
-        if (nums == null || nums.length<4){
+        if (nums == null || nums.length < 4) {
             return result;
         }
         Arrays.sort(nums);
@@ -38,7 +39,7 @@ public class SumFor4_18 {
                 while (l < r) {
                     int sum = nums[i] + nums[j] + nums[l] + nums[r];
                     if (sum == target) {
-                        tmp = new ArrayList<Integer>(Arrays.asList(nums[i],nums[j],nums[l],nums[r]));
+                        tmp = new ArrayList<Integer>(Arrays.asList(nums[i], nums[j], nums[l], nums[r]));
                         ++l;
                         --r;
                         if (!result.contains(tmp)) {

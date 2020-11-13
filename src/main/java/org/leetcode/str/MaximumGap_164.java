@@ -32,7 +32,9 @@ public class MaximumGap_164 {
         return result;
     }
 
-    /** TODO 仔细分析 https://leetcode.com/problems/maximum-gap/discuss/50669/Beat-99.81-java-coder
+    /**
+     * TODO 仔细分析 https://leetcode.com/problems/maximum-gap/discuss/50669/Beat-99.81-java-coder
+     *
      * @param nums
      * @return
      */

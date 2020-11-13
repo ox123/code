@@ -26,7 +26,7 @@ public class ColorSort_75 {
 
     public void sortColor1(int[] nums) {
         int left = 0;
-        int right = nums.length-1;
+        int right = nums.length - 1;
         int i = 0;
         while (i <= right) {
             if (nums[i] == 0) {

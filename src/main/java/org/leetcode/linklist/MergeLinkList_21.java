@@ -9,6 +9,7 @@ public class MergeLinkList_21 {
      * Runtime: 0 ms, faster than 100.00% of Java online submissions for Merge Two Sorted Lists.
      * Memory Usage: 41.6 MB, less than 7.07% of Java online submissions for Merge Two Sorted Lists.
      * TODO 内存有待优化
+     *
      * @param l1
      * @param l2
      * @return

@@ -6,7 +6,7 @@ import java.util.Queue;
 
 /**
  * https://www.programcreek.com/2015/04/leetcode-coin-change-java/
- *  * 解题思路： https://leetcode-cn.com/problems/coin-change/solution/dong-tai-gui-hua-shi-yong-wan-quan-bei-bao-wen-ti-/
+ * * 解题思路： https://leetcode-cn.com/problems/coin-change/solution/dong-tai-gui-hua-shi-yong-wan-quan-bei-bao-wen-ti-/
  */
 public class CoinChange_322 {
     public static void main(String[] args) {

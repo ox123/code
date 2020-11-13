@@ -17,6 +17,7 @@ public class LongestPalindrome_5 {
 
     /**
      * https://leetcode.com/problems/longest-palindromic-substring/discuss/408930/JAVA%3A-Simple-and-Concise-solution-with-detailed-explanation
+     *
      * @param s
      * @return
      */

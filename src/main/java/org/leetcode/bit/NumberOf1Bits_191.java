@@ -8,9 +8,10 @@ public class NumberOf1Bits_191 {
         int aa = 00000000000000000000000000001011;
         System.out.println(new NumberOf1Bits_191().hammingWeight(aa));
     }
+
     public int hammingWeight(int n) {
         int count = 0;
-        while(n != 0){
+        while (n != 0) {
             n = n & (n - 1);
             count++;
         }

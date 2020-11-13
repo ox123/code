@@ -50,7 +50,7 @@ public class Sumfor3_15 {
                 if (sum == 0) {
                     List tmp = new ArrayList<>(Arrays.asList(nums[i], nums[left], nums[right]));
 //                    result.add(new ArrayList<>(Arrays.asList(nums[i], nums[left], nums[right])));
-                    if (!result.contains(tmp)){
+                    if (!result.contains(tmp)) {
                         result.add(tmp);
                     }
                     left++;
