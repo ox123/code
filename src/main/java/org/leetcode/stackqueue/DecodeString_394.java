@@ -4,15 +4,14 @@ import java.util.Stack;
 
 public class DecodeString_394 {
     public static void main(String[] args) {
-        String s = "3[a]2[bc]";
+//        String s = "3[a]2[bc]";
+        String s = "3[a2[c]]";
         System.out.println(new DecodeString_394().decodeString(s));
     }
 
     public String decodeString(String s) {
-        //special case
         int len = s.length();
         if (len == 0) return "";
-        //general case
         Stack<String> strStack = new Stack<>();
         Stack<Integer> numStack = new Stack<>();
         StringBuilder res = new StringBuilder();
