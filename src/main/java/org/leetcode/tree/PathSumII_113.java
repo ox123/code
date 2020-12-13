@@ -18,13 +18,13 @@ public class PathSumII_113 {
     private void pathSum(TreeNode root, Deque<Integer> path, List<List<Integer>> paths, int sum, int pathSum) {
         if (root == null)
             return;
-        path.addLast(root.val);
+        path.addLast(root.val); // path 数据添加与选择
         int currSum = pathSum + root.val;
         if ((root.left == null) && (root.right == null) && (currSum == sum))
             paths.add(new ArrayList<>(path));
         pathSum(root.left, path, paths, sum, currSum);
         pathSum(root.right, path, paths, sum, currSum);
-        path.removeLast();
+        path.removeLast(); // 撤销原则--------
     }
 //
 //    public List<List<Integer>> pathSum(TreeNode root, int sum) {
