@@ -27,7 +27,7 @@ public class IntersectionOfTwoArraysII_350 {
         AtomicInteger i = new AtomicInteger();
         for (int y :
                 nums2) {
-            if (map.get(y) > 0) {
+            if (map.getOrDefault(y, 0) > 0) {
                 list.add(y);
                 map.put(y, map.get(y) - 1);
             }
