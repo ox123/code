@@ -1,7 +1,5 @@
 package org.leetcode.str;
 
-import java.util.Arrays;
-
 /**
  * https://leetcode.com/problems/car-pooling/
  */
@@ -12,25 +10,20 @@ public class CarPooling_1094 {
     }
 
     public boolean carPooling(int[][] trips, int capacity) {
-        boolean res = true;
-        int num = 1001;
+        int num = 0;
         int n = trips.length;
+        for (int i = 0; i < trips.length; i++) {
+            if (trips[i][2] > num) num = trips[i][2];
+        }
         int[] a = new int[num];
-        Arrays.fill(a, 0);
-//        for (int i = 0; i < num; i++) {
-//            a[i] = 0;
-//        }
         for (int i = 0; i < n; i++) {
             for (int j = trips[i][1]; j < trips[i][2]; j++) {
                 a[j] += trips[i][0];
             }
         }
         for (int i = 0; i < num; i++) {
-            if (a[i] > capacity) {
-                res = false;
-                break;
-            }
+            if (a[i] > capacity) return false;
         }
-        return res;
+        return true;
     }
 }

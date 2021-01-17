@@ -33,7 +33,7 @@ public class IntersectionOfTwoArraysII_350 {
             }
         }
         int size = list.size();
-        int[] res = new int[size];
+        int[] res = new int[list.size()];
         list.forEach((val) -> {
             res[i.getAndIncrement()] = val;
         });

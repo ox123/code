@@ -10,8 +10,24 @@ import java.util.Queue;
  */
 public class CoinChange_322 {
     public static void main(String[] args) {
-        int[] coins = {186, 419, 83, 408};
-        System.out.println(new CoinChange_322().coinChange(coins, 6249));
+//        int[] coins = {186, 419, 83, 408};
+        int[] coins = {1};
+        new CoinChange_322().change(coins, 1);
+//        System.out.println(new CoinChange_322().coinChange(coins, 6249));
+    }
+
+    public int change(int[] coins, int amount) {
+        Arrays.sort(coins);
+        int length = coins.length;
+        int num = 0;
+        int rest = amount;
+        for (int i = length - 1; i >= 0; i--) {
+            int cur = coins[i];
+            num += rest / cur;
+            rest = amount % cur;
+            if (rest <= 0) break;
+        }
+        return rest > 0 ? -1 : num;
     }
 
     public int coinChange(int[] coins, int amount) {
