@@ -1,15 +1,24 @@
 package org.leetcode.recursion;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
  * 回溯与深度搜索案例
  */
 public class Permutations_46 {
+    static List<List<Integer>> res = new LinkedList<>();
     public static void main(String[] args) {
         int[] num = {1, 2, 3};
         System.out.println(new Permutations_46().permute(num));
+//        List<List<Integer>> lists = new Permutations_46().permute2(num);
+        for (List<Integer> lst :
+                res) {
+            System.out.println(Arrays.asList(lst.toArray()));
+        }
+
     }
 
     public List<List<Integer>> permute(int[] nums) {
@@ -51,7 +60,6 @@ public class Permutations_46 {
 
     private void collectPermutations(int[] nums, int start, List<Integer> permutation,
                                      List<List<Integer>> permutations) {
-
         if (permutation.size() == nums.length) {
             permutations.add(permutation);
             return;
@@ -61,6 +69,25 @@ public class Permutations_46 {
             List<Integer> newPermutation = new ArrayList<>(permutation);
             newPermutation.add(i, nums[start]);
             collectPermutations(nums, start + 1, newPermutation, permutations);
+        }
+    }
+
+    public List<List<Integer>>  permute2(int []nums){
+        LinkedList<Integer> trace = new LinkedList<>();
+        recuse(nums,trace);
+        return res;
+    }
+
+    private void recuse(int[] nums, LinkedList<Integer> trace) {
+        if (trace.size() == nums.length){
+            res.add(new LinkedList(trace));
+        }
+        for (int x :
+                nums) {
+            if (trace.contains(x)) continue;
+            trace.add(new Integer(x));
+            recuse(nums,trace);
+            trace.removeLast();
         }
     }
 }

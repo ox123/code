@@ -7,7 +7,7 @@ import java.util.List;
 public class ZkTest {
     public static void main(String[] args) {
         try {
-            ZooKeeper zooKeeper = new ZooKeeper("80.158.32.174:2181", 300, new Watcher() {
+            ZooKeeper zooKeeper = new ZooKeeper("localhost:2181", 300, new Watcher() {
                 @Override
                 public void process(WatchedEvent watchedEvent) {
                     System.out.println(String.format("--->{}", watchedEvent.toString()));
