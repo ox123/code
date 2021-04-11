@@ -16,7 +16,7 @@ public class ListUtils {
             StringBuilder builder = new StringBuilder();
             for (Integer x :
                     lst) {
-                builder.append(x);
+                builder.append(x).append("\t");
             }
             System.out.println(builder.toString());
         }
