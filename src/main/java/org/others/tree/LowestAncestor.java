@@ -1,5 +1,7 @@
 package org.others.tree;
 
+import org.common.Node;
+
 public class LowestAncestor {
     public Node lowestAncestor(Node head, Node o1, Node o2) {
         if (head == null || o1 == null || o2 == null) {
@@ -10,19 +12,7 @@ public class LowestAncestor {
         if (left != null && right != null) {
             return head;
         }
-        return left == null ? left : right;
-    }
-
-    class Node {
-        int data;
-        Node left;
-        Node right;
-
-        Node(int data) {
-            this.data = data;
-            left = null;
-            right = null;
-        }
+        return left == null ? right : left;
     }
 
 }
