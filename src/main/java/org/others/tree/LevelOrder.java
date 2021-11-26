@@ -1,5 +1,7 @@
 package org.others.tree;
 
+import org.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
@@ -23,17 +25,11 @@ public class LevelOrder {
                     if (tmp.right != null) {
                         q.offer(tmp.right);
                     }
-                    tmpList.add(tmp.val);
+                    tmpList.add(tmp.data);
                 }
             }
             ans.add(tmpList);
         }
         return ans;
-    }
-
-    public class TreeNode {
-        int val = 0;
-        TreeNode left = null;
-        TreeNode right = null;
     }
 }

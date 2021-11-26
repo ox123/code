@@ -1,5 +1,7 @@
 package org.others.tree;
 
+import org.common.Node;
+
 import java.util.ArrayList;
 
 /**
@@ -32,18 +34,6 @@ public class BST {
         list.add(root.data);
         if (root.right != null) {
             in(root.right);
-        }
-    }
-
-    class Node {
-        int data;
-        Node left;
-        Node right;
-
-        Node(int data) {
-            this.data = data;
-            left = null;
-            right = null;
         }
     }
 }
