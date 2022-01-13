@@ -1,5 +1,7 @@
 package org.leetcode.tree;
 
+import org.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -18,9 +20,9 @@ public class ZigzagLevelOrder_103 {
             for (int i = 0; i < size; ++i) {
                 TreeNode n = q.poll();
                 if (order) {
-                    tmp.add(n.val);
+                    tmp.add(n.data);
                 } else {
-                    tmp.add(0, n.val);
+                    tmp.add(0, n.data);
                 }
                 if (n.left != null) q.add(n.left);
                 if (n.right != null) q.add(n.right);
@@ -52,7 +54,7 @@ public class ZigzagLevelOrder_103 {
             for (int i = 0; i < length; i++) {
                 if (level % 2 == 0) {
                     TreeNode node = list.poll();
-                    res.get(level).add(node.val);
+                    res.get(level).add(node.data);
                     if (node.left != null) {
                         list.add(node.left);
                     }
@@ -61,7 +63,7 @@ public class ZigzagLevelOrder_103 {
                     }
                 } else {
                     TreeNode node = list.removeLast();
-                    res.get(level).add(node.val);
+                    res.get(level).add(node.data);
                     if (node.right != null) {
                         list.addFirst(node.right);
                     }
@@ -73,24 +75,5 @@ public class ZigzagLevelOrder_103 {
             level++;
         }
         return res;
-    }
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode() {
-        }
-
-        TreeNode(int val) {
-            this.val = val;
-        }
-
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
     }
 }
